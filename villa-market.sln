@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "villa-market.Web", "villa-market.Web\villa-market.Web.csproj", "{8E55CDD1-C3BF-4AAC-A962-03E928F0C571}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "villa-market.Web", "villa-market.Web\villa-market.Web.csproj", "{8E55CDD1-C3BF-4AAC-A962-03E928F0C571}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "villa-market.Domain", "villa-market.Domain\villa-market.Domain.csproj", "{35A32EA8-7A0D-4D79-AC89-4EC9C0F6FF51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "villa-market.Infrastructure", "villa-market.Infrastructure\villa-market.Infrastructure.csproj", "{8852932B-3CB4-43B1-8A20-B490C36FC56C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "villa-market.Application", "villa-market.Application\villa-market.Application.csproj", "{54352659-2D8D-4D85-A07F-1AA29516AEEC}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E361134C-A17A-403D-A4CF-55019A4AEA17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{8E55CDD1-C3BF-4AAC-A962-03E928F0C571}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E55CDD1-C3BF-4AAC-A962-03E928F0C571}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E55CDD1-C3BF-4AAC-A962-03E928F0C571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A32EA8-7A0D-4D79-AC89-4EC9C0F6FF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A32EA8-7A0D-4D79-AC89-4EC9C0F6FF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A32EA8-7A0D-4D79-AC89-4EC9C0F6FF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A32EA8-7A0D-4D79-AC89-4EC9C0F6FF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8852932B-3CB4-43B1-8A20-B490C36FC56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8852932B-3CB4-43B1-8A20-B490C36FC56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8852932B-3CB4-43B1-8A20-B490C36FC56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8852932B-3CB4-43B1-8A20-B490C36FC56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54352659-2D8D-4D85-A07F-1AA29516AEEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54352659-2D8D-4D85-A07F-1AA29516AEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54352659-2D8D-4D85-A07F-1AA29516AEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54352659-2D8D-4D85-A07F-1AA29516AEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E361134C-A17A-403D-A4CF-55019A4AEA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E361134C-A17A-403D-A4CF-55019A4AEA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E361134C-A17A-403D-A4CF-55019A4AEA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E361134C-A17A-403D-A4CF-55019A4AEA17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
