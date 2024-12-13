@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace villa_market.Domain.Entities
 {
-    internal class Villa
+    public class Villa
     {
         public int Id { get; set; }
         [MaxLength(50)]
