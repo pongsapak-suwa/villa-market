@@ -24,4 +24,9 @@
     <ProjectReference Include="..\villa-market.Infrastructure\villa-market.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\VillaImage\" />
+    <Folder Include="wwwroot\images\Room Images\" />
+  </ItemGroup>
+
 </Project>
